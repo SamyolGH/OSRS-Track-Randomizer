@@ -91,6 +91,7 @@ const MediaPlayer = () => {
         if (nextIndex === 0) {
             // reached the end → reshuffle
             setPlaylist(shuffleTracks(urls));
+            // t t t :)
         }
 
         setIndex(nextIndex);
